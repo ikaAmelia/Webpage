@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+}
+
+
+.navBar{
+    color: white;
+    font-size: x-large;
+    width: auto;
+    padding: 15px;
+    background-color:#1f1f1f;
+    border-radius: 25px;
+    margin: 30px;
+    margin-bottom: 0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#link{
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#link:hover{
+    color:  #6e6e6e;
+}
+
+.content{
+    color:white;
+    width: auto;
+    padding: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#1f1f1f;
+    margin: 30px;
+    margin-top: 0px;
+    font-family: monospace ;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.welcome{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.image{
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+.smthng{
+   text-align: center;
+   font-family: monospace;
+   font-size: 40px;
+   font-weight: bolder;
+}
+
+.profile{
+    background-color: #1f1f1f;
+    padding: 60px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#1f1f1f;
+    margin: 30px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+#myProfile{
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+}
+.second_image{
+    width: 100px;
+}
+
+.second_image:hover{
+    transform: rotate(360deg);
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+    0% { transform: rotate(0deg); }
+}
+
+#info{
+    font-size: xx-large;
+    margin-top: 5px;
+}
+.links{
+    font-size: large;
+    width: auto;
+    padding: 15px;
+    margin: 30px;
+    margin-bottom: 0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#contact{
+    color: black;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#contact:hover{
+    color: white;
+}
+body {
+    background: url(cloud_wallpaper.jpeg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
